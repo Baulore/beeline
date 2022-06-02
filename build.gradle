@@ -7,16 +7,12 @@ version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
-    maven {
-        url 'https://maven.forgerock.org/repo/community/'
-    }
 }
 
 dependencies {
     implementation 'com.auth0:java-jwt:3.16.0'
     implementation 'com.nimbusds:nimbus-jose-jwt:9.11.1'
     implementation 'org.bitbucket.b_c:jose4j:0.7.9'
-    implementation 'org.forgerock.ce.commons:json-crypto-project:1.1.0'
     implementation 'org.bouncycastle:bcprov-jdk15on:1.70'
     implementation 'org.apache.commons:commons-lang3'
     implementation 'org.apache.commons:commons-text:1.9'
